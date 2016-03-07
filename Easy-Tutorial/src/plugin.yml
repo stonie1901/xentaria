@@ -1,0 +1,43 @@
+name: SocialCommand
+author: stonie1901
+version: 0.1
+main: de.xentaria.easytut.Main
+commands:
+     social:
+          description: Zeigt alle Sozialen Netzwerke.
+          usage: /social
+     facebook:
+          description: Sendet Dir unseren Facebooklink.
+          usage: /facebook
+          aliases: fb
+     twitter:
+          description: Sendet Dir unseren Twitterlink.
+          usage: /twitter
+     teamspeak:
+          description: Zeigt Dir unsere Teamspeak Ip.
+          usage: /teamspeak
+          aliases: ts
+     regeln:
+          description: Zeigt Dir unsere Regeln.
+          usage: /regeln
+          aliases: rules
+     forum:
+          description: Sendet Dir den Link zu unserem Forum.
+          usage: /forum
+     webseite:
+          description: Sendet Dir den Link unserer Webseite.
+          usage: /webseite
+          aliases: hp
+     cc:
+          description: Loescht den Chat
+          usage: /cc
+          aliases: cleaner
+     reload:
+          description: Reloaded den Server
+          usage: /reload
+          aliases: rl
+     reloadsocial:
+          description: Zeigt alle sozialen Netzwerk Links.
+          usage: /reloadsocial
+          aliases: rs
+          permission: bukkit.command.op
