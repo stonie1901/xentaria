@@ -1,4 +1,4 @@
-name: SocialCommand
+name: Xentaria-Coreplugin
 author: stonie1901
 version: 0.1
 main: de.xentaria.easytut.Main
@@ -41,3 +41,7 @@ commands:
           usage: /reloadsocial
           aliases: rs
           permission: bukkit.command.op
+     gm:
+          description: Reloaded den Server
+          usage: /gm <Gamemode> [Spieler]
+          aliases: gamemode

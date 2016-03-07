@@ -7,6 +7,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 import de.xentaria.easytut.befehle.CleanerCommand;
 import de.xentaria.easytut.befehle.FacebookCommand;
 import de.xentaria.easytut.befehle.ForumCommand;
+import de.xentaria.easytut.befehle.GamemodeCommand;
+import de.xentaria.easytut.befehle.GmCommand;
 import de.xentaria.easytut.befehle.HelpCommand;
 import de.xentaria.easytut.befehle.ReloadSocialCommand;
 import de.xentaria.easytut.befehle.RulesCommand;
@@ -61,6 +63,7 @@ public class Main extends JavaPlugin{
 	    
 	    // sonstige Commands
 	    getCommand("cc").setExecutor(new CleanerCommand());
+	    getCommand("gm").setExecutor(new GamemodeCommand());
 	    
 	    
 	    // Pluginmanager
@@ -73,6 +76,3 @@ public class Main extends JavaPlugin{
 	}
 	
 }
-
-
-git test
